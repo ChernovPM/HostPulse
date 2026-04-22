@@ -20,23 +20,3 @@ It can:
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-```
-
-## Usage
-
-Run the CLI:
-
-```bash
-python main.py
-```
-
-Example flow:
-
-```text
-Enter host/domain (e.g., example.com): example.com
-Enter TCP ports separated by commas (e.g., 22,80,443): 22,80,443
-...
-Save report to report.json? (y/n): y
-```
-
-After running, if you choose to save, a `report.json` file is created in the project directory.
